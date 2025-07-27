@@ -23,7 +23,7 @@ BOT_TOKEN = os.getenv("BOT_TOKEN", "")
 MONGO_DB = os.getenv("MONGO_DB", "mongodb+srv://mustfeek8:3VmnTgNJ5vdkSXC3@cluster0.evfwy2i.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0")
 OWNER_ID = list(map(int, os.getenv("OWNER_ID", "7962530240").split())) # list seperated via space
 DB_NAME = os.getenv("DB_NAME", "telegram_downloader")
-STRING = os.getenv("STRING", None) # optional
+STRING = os.getenv("1BVtsOKEBu654DrZ_2eSlc1APoEhKvY7J9hYqgJLbBWLeHjVpr6PZaN6dNWYdSOYnomcLov00qj7YihRkIP0AGVV3zyf4F0JBEMBfFpNEQeSI8jaQjiBk4vBwdzHNE13K9oRBtIaSf35nGGMsM8kPgrlPUriVfNSvwdr0j8s9apWZptWdzuOp76X1S75G-tgnf0poCmhx_V0AxZsIwiglLhRJW7kaTugrZ1w3oOpWST8wZ3ly9fVtNZ9KilXh94SDSY5JMCGY6mglLYCD3JYcaEI7zuAUX7o96pAOExABdd2Nf4cHkquWhLe0GzfffDELlScIWnkkuQm_n476ba1wTdny-mogskc=", None) # optional
 LOG_GROUP = int(os.getenv("LOG_GROUP", "-4969139292) # optional with -100
 FORCE_SUB = int(os.getenv("FORCE_SUB", "-1002885568913) # optional with -100
 MASTER_KEY = os.getenv("MASTER_KEY", "gK8HzLfT9QpViJcYeB5wRa3DmN7P2xUq") # for session encryption
